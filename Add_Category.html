@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Category</title>
+    <style>
+        label {
+            width: min(100%, 950px);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Add Category</h1>
+    <hr>
+    <form>
+        <table>
+            <tr>
+                <td><label for="Category_name" class="add_category">Category Name:</label></td>
+                <td><input type="text" id="Category_name" name="Category_name"></td>
+            </tr>
+            <tr>
+                <td><label for="Category_description" class="add_category">Category Description:</label></td>
+                <td><textarea id="Category_description" name="Category_description"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="is_active" class="add_category">Is Active:</label></td>
+                <td><input type="checkbox" id="is_active" name="is_active"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Image_url" class="add_category">Image URL:</label></td>
+                <td><input type="text" id="Image_url" name="Image_url"></td>
+            </tr>
+        </table>
+        <p>
+            <button type="reset">Discard</button>
+            <button type="submit">Save</button>
+        </p>
+    </form>
+</body>
+
+</html>
